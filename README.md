@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 💻 LabeX 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### :dart: Objetivo do projeto
+Último projeto individual da trilha front-end do bootcamp de desenvolvimento web fullstack da Labenu.  Seu intuito é rever todos os conteúdos do curso de maneira prática e fazer uma aplicação completa. É importante destacar que esse é uma aplicação do tipo Mobile First.
 
-## Available Scripts
 
-In the project directory, you can run:
+### :small_blue_diamond: Os requisitos do projeto são:
+- **Home** 
+   *  A divisão entre a área do administrados ou do candidato
+ - **Home** 
 
-### `npm start`
+- **Login** 
+    * Ao efetuar o login, o usuário deve ser redirecionado para a página de viagens
+    *  O token deve ser salvo no LocalStorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **SignUp**
+    * Após o signup, o usuário deverá ser redirecionado para a página de viagens
+    *  O token deve ser salvo no LocalStorage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Lista de Viagens**
+    *  Deve mostrar todas as viagens
+    *  Deve permitir a criação de uma nova viagem
+    *  Só pode ser acessada por usuários logados
+    *  Quando o usuário clicar em uma viagem, ele deverá ser redirecionado para a página dos detalhes dessa viagem. 
+ 
+    
+- **Detalhes da viagem**
+    *  Informação sobre a viagem
+    *  Deve mostrar todos candidatos para essa viagem
+    *  Possibilidade de aceitar ou recusar a candidatura
+    
 
-### `npm test`
+- **Criar Viagem**
+    * A página com o formulário para criar a viagem
+   
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades
+- Navegação entre as páginas utilizando o react-router-dom
+- Autenticação e Proteção das páginas privadas
+- Usuários não logados são redirecionados para a página de login
+- Pessoas autenticadas (logadas) conseguem acessar a página viagens e a criação da viagen
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :books: Bibliotecas utilizadas
+- [styled-components](https://styled-components.com/)
+- [axios](https://github.com/axios/axios)
+- [react-router-dom](https://v5.reactrouter.com/)
+- [material ui](https://mui.com/pt/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔗 Link Surge 
+Acesse a página do LabEddit [clicando aqui](https://bewildered-metal.surge.sh)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📷 Imagens
