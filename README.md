@@ -6,9 +6,13 @@
 
 ### :small_blue_diamond: Os requisitos do projeto são:
 - **Home** 
-   *  A divisão entre a área do administrados ou do candidato
- - **Home** 
-
+    *  A divisão entre a área do administrados ou do candidato
+   
+ - **Área do candidato:** 
+    *  A página com o formulário para candidatar-se a viagem
+    
+ - **Área do administrador:** 
+ 
 - **Login** 
     * Ao efetuar o login, o usuário deve ser redirecionado para a página de viagens
     *  O token deve ser salvo no LocalStorage
