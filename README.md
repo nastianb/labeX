@@ -52,7 +52,7 @@
 - [material ui](https://mui.com/pt/)
 
 ## 🔗 Link Surge 
-Acesse a página do LabeX [clicando aqui]()
+Acesse a página do LabeX [clicando aqui](https://labe-x-phi.vercel.app)
 
 
 ## 📷 Imagens
